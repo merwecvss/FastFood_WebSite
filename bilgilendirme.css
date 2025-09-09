@@ -1,0 +1,128 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0 100px;
+    background-color: #ffeae0;
+    font-family: sans-serif;
+  }
+  
+  /*MENÜ KISMI*/
+  .çubuk{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+  }
+  
+  .çubuk .logo h1{
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #000000;  
+  }
+  
+  .çubuk .logo b{
+    color: #ff511c;
+  }
+  
+  .çubuk ul{
+    display: flex;
+    list-style: none;
+  }
+  
+  .çubuk ul li{
+    margin-right: 30px;
+  }
+  
+  .çubuk ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  
+  /*as*/
+  
+  .çubuk ul .as::after{
+    content: '';
+    width: 75%;
+    height: 3px;
+    background-color: #ff511c;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+  }
+  
+  /*input*/
+  
+  input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .giriş{
+    background-color: transparent;
+    border: none;
+  }
+  
+  .kayıt{
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+  }
+  
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container h1, h2 {
+    text-align: center;
+    color: #333;
+}
+p {
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: #ff511c;
+  }
+
+
+
+/*Alt Kısım*/
+.alt{
+    text-align: center;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 150px;
+    margin: 50px auto;
+    background-color:transparent;
+    width: 820px;
+  }
+  
+  .alt .Yukarı{
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+  }

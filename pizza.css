@@ -1,0 +1,207 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+    margin: 0 100px;
+    background-color: #ffeae0;
+  }
+
+  /*MENÜ KISMI*/
+ 
+  .altcizgi{
+      color: #000000;
+      text-decoration: none;
+      border-bottom:2px solid #c2c0c0;
+      padding-right: 30%;
+      padding-bottom: 20px;
+      padding-top: 30px;
+  }
+  
+  .altcizgi2{
+      color: #000000;
+      text-decoration: none;
+      border-bottom:2px solid #c2c0c0;
+      padding-right: 30%;
+      padding-bottom: 10px;
+      padding-top: 30px;
+  }
+  .çubuk{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+  }
+  
+  .çubuk .logo h1{
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #000000;
+    list-style: none;
+  }
+  
+  .çubuk .logo b{
+    color: #ff511c;
+  }
+  
+  .çubuk ul{
+    display: flex;
+    list-style: none;
+  }
+  
+  .çubuk ul li{
+    margin-right: 30px;
+  }
+  
+  .çubuk ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+  }
+  
+  /*as*/
+  
+  .çubuk ul .as::after{
+    content: '';
+    width: 60%;
+    height: 3px;
+    background-color: #ff511c;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+  }
+  .yan-menü{
+    background-color: #ff9d7f;
+
+  }
+
+  .yan-çubuk{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+  }
+
+  .yan-çubuk ul{
+    list-style: none;
+  }
+  
+  .yan-çubuk ul li{
+    margin-bottom: 30px;
+  }
+
+  .yan-çubuk ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+
+
+
+    /*input*/
+  input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .giriş{
+    background-color: transparent;
+    border: none;
+  }
+  
+  .kayıt{
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+  }
+
+  
+  div.galeri {
+    margin: 5px;
+    border: 1px solid #ffffff;
+    float: left;
+    width: 220px;
+    background-color: #ffffff;
+  }
+  
+  div.galeri:hover {
+    border: 1px solid #ff511c;
+  }
+  
+  div.galeri img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  div.desc {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  div.fiyat{
+    padding: 5px;
+    text-align: center;  
+  }
+
+  .bölüm {  
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .anamenü {
+    flex: 83%;
+    padding: 20px;
+  }
+  
+  
+  .kenar {
+      color: black;
+      flex: 17%;
+  }
+  
+  
+  .footer {
+    padding-right: 100%;
+    text-align: center;
+    background: #ff9d7f;
+  }
+  
+  
+  
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  background-color: #ff511c;
+}
+
+
+.alt{
+  text-align: center;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 150px;
+  margin: 50px auto;
+  background-color:transparent;
+  width: 820px;
+}
+
+.alt .Yukarı{
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: underline;
+}
